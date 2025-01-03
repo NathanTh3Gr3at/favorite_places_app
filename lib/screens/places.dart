@@ -3,7 +3,6 @@ import 'package:favorite_places_app/screens/add_place_screen.dart';
 import 'package:favorite_places_app/widgets/places_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class PlacesScreen extends ConsumerWidget {
   const PlacesScreen({super.key});
@@ -28,8 +27,11 @@ class PlacesScreen extends ConsumerWidget {
           ),
         ],
       ),
-      body: PlacesList(
-        places:userPlaces,
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: PlacesList(
+          places:userPlaces,
+        ),
       ),
     );
   }
