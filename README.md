@@ -9,6 +9,19 @@ An app that allows users to add a place as a favorite  and customize it with a n
   - Makes use of the users camera to take pictures
   - Map data from OpenStreet Maps
 
+## Packages Used:
+  - Google Fonts
+  - UUID
+  - Riverpod
+  - Image Picker
+  - Location
+  - Flutter Map
+  - HTTP
+  - Latlong2
+  - Path Provider
+  - Path
+  - SQFLite
+
 ## Images:
 <table>
   <tr>
